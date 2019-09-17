@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 0;
+}
+
+h1 {
+    text-indent: -9999;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.user {
+    background: #dc353c;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.user li {
+    padding: 0 5px;
+    float: left;
+    color: #fff;
+    font-size: 12px;
+}
+
+.user .console {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 5px 0 0 5px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.nav .logo {
+    display: block;
+    width: 120px;
+    height: 34px;
+    background: url(images/002.png) no-repeat;
+}
+
+.nav ul li {
+    float: left;
+    color: #000;
+    padding: 0 10px;
+    margin-left: 40px;
+    color: #5b5c5e;
+    font-size: 14px;
+}
+
+.nav .current {
+    border-bottom: 2px solid #d32929;
+    color: #d32929;
+}
+
+.content {
+    position: relative;
+    height: 650px;
+}
+
+.content img {
+    height: 650px;
+    width: 100%;
+}
+
+.content .listnav {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -76px
+}
+
+.content .listnav li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #acacaa;
+}
+
+.content .listnav .current {
+    background: #fff;
+}
+
+.hd {
+    text-align: center;
+
+}
+
+.hd h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.hd p {
+    color: #5b5c5e;
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+.baseSever {
+    margin-top: 42px;
+}
+
+.baseSever ul {
+    margin-top: 30px;
+}
+
+.baseSever ul li {
+    float: left;
+    height: 176px;
+    width: 164px;
+    margin-right: 2px;
+    background: #6b6b6d;
+}
+
+.baseSever .baseSeverimg {
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 50%;
+}
+
+.baseSever .baseSeverimg img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    height: 70px;
+}
+
+.baseSever .cen {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.soultion {
+    margin-top: 130px;
+}
+
+.soultion .hd {
+    margin-bottom: 80px;
+}
+
+.soultion .soultion-l {
+    width: 50%;
+}
+
+.soultion .soultion-r {
+    width: 50%;
+}
+
+.soultion .soultion-r h4 {
+    width: 120px;
+    font-size: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    margin: 42px 0;
+}
+
+.soultion .soultion-r p {
+    color: #5b5c5e;
+    font-size: 14px;
+}
+
+.soultion .soultion-r a {
+    display: block;
+    margin-top: 20px;
+    width: 106px;
+    height: 40px;
+    border: 1px solid #dc353c;
+    border-radius: 5px;
+    color: #5b5c5e;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+
+.list h4 {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    margin: 42px 0;
+}
+
+.list ul li {
+    width: 300px;
+    height: 32px;
+    line-height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #5b5c5e;
+}
+
+.list .list-l,
+.list-m {
+    margin-right: 50px
+}
+
+.list-r .img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+
+.fotter {
+    margin-top: 20px;
+    padding: 38px 0 75px 0;
+    height: 260px;
+    background: #333132;
+    font-size: 14px;
+    color: #6b6b6d;
+}
+
+.fotter dl {
+    float: left;
+    margin-right: 110px;
+}
+
+.fotter .fotter-l dt {
+    height: 48px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.fotter .fotter-l dd {
+    height: 30px;
+}
+
+.fotter .fotter-r .sanjiao {
+    width: 0;
+    height: 0;
+    border: 8px solid rgba(0, 0, 0, 0);
+    border-left-color: #fff;
+    margin-top: 5px;
+}
+
+.fotter .fotter-r .fotter-rhd li {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #403f47;
+}
+.fotter .fotter-r .fotter-rhd li:last-child{
+    border: none;
+}
+.fotter .fotter-r .fotter-rbd li{
+    height: 30px;
+    line-height: 30px
+}
